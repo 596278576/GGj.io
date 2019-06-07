@@ -7,6 +7,7 @@
 }
 header{
 	height: 126px;
+	border-bottom:white solid 1px;
 }
 .header-left{
 	margin-top:10px;
@@ -34,6 +35,9 @@ nav a{
 nav a:hover{
 	color: #80b767;
 	text-decoration: none;
+}
+nav li{
+	list-style: none;
 }
 /*.carcousel .p1{
 	margin: 120px auto 20px 150px;
@@ -69,4 +73,132 @@ nav a:hover{
 		width: 100%;
 		float: none;
 	}
+.logo1{
+	width: 80px; height: 80px;
 }
+.logo2{
+	width: 80px;
+	height: 50px;
+}
+}
+		*{padding: 0; margin: 0;}
+		.btn1{
+			background: none;
+			padding: 10px;
+			color: white;
+		}
+		.btn1:hover{
+			background: #80b767;
+		}
+		.btn2{
+			background: white;
+		}
+		 @media (min-width:768px){
+			.btn3{
+				display: none;
+			}	
+
+		 }
+.about{
+	background: white;
+}
+.about-content{
+	margin-top: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-bottom:#e5e5e5 solid 1px;
+}
+.about-content p{
+	font-size: 36px;
+	color: #80b767;
+	
+}
+
+.about-icon{
+	width: 50%;
+	text-align: center;
+	line-height: 30px;
+	margin-top:50px;
+}
+.about-icon{
+	
+}
+.icon5{
+	margin-top:50px;
+}
+.carcousel2-content{
+	overflow:hidden;
+}
+.carcousel2{
+	background: #f2f2f2;
+
+}
+.carcousel2-title{
+	font-size: 36px;
+	color: #80b767;
+	margin: 50px auto;
+	text-align: center;
+}
+.carcousel2-slide{
+	  box-shadow: darkgrey 1px 1px 1px 1px ;
+}
+.carcousel2-slide img{
+	width: 100%;
+}
+.carcousel2-slide p{
+	margin: 20px;
+}
+.carcousel2-slide:hover{
+	  background: #80b767;
+	  box-shadow: #80b767 1px 1px 1px 1px ;
+}
+.news{
+	background: #f2f2f2;
+	text-align: center;
+}
+.news-title{
+	font-size: 36px;
+	color: #80b767;
+	text-align: center;
+	margin:100px auto 50px auto;
+}
+.news li{
+	list-style:none;
+}
+.news li p{
+	line-height: 40px;
+	color: #90b767;
+}
+.news li::after{
+	content:"Expandable hoses are an alternative to traditional hoses that many of us have on reels in our gardens or sheds. They are lighter, compact and a lot of brands claim their expandable hoses won't kink either. However, we've found that some of them don't stretch as far as they claim - especially if you have low water-pressure.";
+	background: #80b767;
+	position: absolute;
+	opacity: 0;
+	width: 267px;
+	height: 302px;
+	margin-top: -400px;	
+	margin-left: -134px;
+	color: white;
+	line-height: 20px;
+	text-align: center;
+	padding: 30px;
+}
+.news li:hover::after{
+	/*content:"111";*/
+	opacity: 50;
+	transition: all 5s;
+}
+/*.section2 ul li::after{
+			content: "";
+			width: 275px;
+			height: 150px;
+			background: blue;
+			display: inline-block;
+			opacity: 0;
+			margin-left: -275px;
+		}
+.section2 ul li:hover::after{
+
+		opacity: 50;
+		transition: all 5s;
+	}*/
