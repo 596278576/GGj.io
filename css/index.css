@@ -66,14 +66,7 @@ nav li{
 	color: white;
 	padding: 0px 10px;
 }
-@media (max-width:768px){
-	.carcousel-left{
-	display: none;
-	}
-	.carcousel img{
-		width: 100%;
-		float: none;
-	}
+
 .logo1{
 	width: 60px; height: 60px;
 	margin-top:30px;
@@ -83,7 +76,7 @@ nav li{
 	height: 40px;
 	margin-top: 30px;
 }
-}
+
 		*{padding: 0; margin: 0;}
 		.btn1{
 			background: none;
@@ -96,12 +89,7 @@ nav li{
 		.btn2{
 			background: white;
 		}
-		 @media (min-width:768px){
-			.btn3{
-				display: none;
-			}	
 
-		 }
 .about{
 	background: white;
 }
@@ -114,7 +102,12 @@ nav li{
 .about-content p{
 	font-size: 36px;
 	color: #80b767;
-	
+}
+.about-content a,.about-icon a{
+	color: #80b767;
+}
+.about-content text,.about-icon text{
+	color: #b9b8b8;
 }
 
 .about-icon{
@@ -123,9 +116,10 @@ nav li{
 	line-height: 30px;
 	margin-top:50px;
 }
-.about-icon{
-	
+.about-icon:hover{
+	box-shadow: darkgrey 5px 5px 5px 10px ;
 }
+
 .icon5{
 	margin-top:50px;
 }
@@ -143,21 +137,31 @@ nav li{
 	text-align: center;
 }
 .carcousel2-slide{
+	background: #efefef;
 	  box-shadow: darkgrey 1px 1px 1px 1px ;
 }
 .carcousel2-slide img{
 	width: 100%;
 }
 .carcousel2-slide p{
+	/*color: #b4b4b4;*/
 	margin: 20px;
+}
+.carcousel2-slide a{
+	/*color: #80b767;*/
+	margin: 20px;
+
 }
 .carcousel2-slide:hover{
 	  background: #80b767;
-	  box-shadow: #80b767 1px 1px 1px 1px ;
+	  box-shadow: #80b767 2px 2px 2px 2px;
+	  /*color: red;*/
 }
+
 .news{
 	background: #f2f2f2;
 	text-align: center;
+	padding-bottom: 50px;
 }
 .news-title{
 	font-size: 36px;
@@ -171,6 +175,7 @@ nav li{
 .news li p{
 	line-height: 40px;
 	color: #90b767;
+
 }
 .news li::after{
 	content:"Expandable hoses are an alternative to traditional hoses that many of us have on reels in our gardens or sheds. They are lighter, compact and a lot of brands claim their expandable hoses won't kink either. However, we've found that some of them don't stretch as far as they claim - especially if you have low water-pressure.";
@@ -191,17 +196,117 @@ nav li{
 	opacity: 50;
 	transition: all 5s;
 }
-/*.section2 ul li::after{
-			content: "";
-			width: 275px;
-			height: 150px;
-			background: blue;
-			display: inline-block;
-			opacity: 0;
-			margin-left: -275px;
-		}
-.section2 ul li:hover::after{
+footer{
+	background:#333333;
+}
+footer .row{
+	margin: 50px auto;
+	border-bottom: #808080 solid 1px;
+	padding-bottom: 40px;
+}
+.footer-left{
+	/*margin: 50px auto;*/
+	color: #9b9999;
+}
+.footer-left p{
+	margin-top:30px;
+}
+.footer-left .pull-right{
+	padding: 13px;
+	margin-left:10px;
+	background: url(../img/icon-bg.png) no-repeat center;
+}
+.footer-left .pull-right:hover{
+	/*padding: 12px;*/
+	background: url(../img/icon-bg2.png) no-repeat center;
+}
+.footer-center{
+	/*text-align: center;*/
+	line-height: 30px;
+	margin: 0 25%;
+}
+.footer-center .title,.footer-center .phone{
+	color: white;
 
-		opacity: 50;
-		transition: all 5s;
-	}*/
+}
+.footer-center .text,.footer-center .emall{
+	color: #9b9999;
+}
+.footer-right{
+	line-height:30px;
+	list-style: none;
+}
+.footer-right p{
+	color: white;
+}
+.footer-right li{
+	list-style: none;
+	color: #9b9999;
+}
+.u1{
+	float: left;
+}
+.u2{
+	float: right;
+}
+.p2{
+	float: left;
+	color: #9b9999;
+}
+.p3{
+	float: right;
+	color: #9b9999;
+}
+
+/*响应式调整*/
+@media (max-width:768px){
+	.carcousel-left{
+	display: none;
+	}
+	.carcousel img{
+		width: 100%;
+		float: none;
+	}
+	.about-content{
+		line-height: 25px;
+	}
+	.carcousel2-slide{
+		font-size: 10px;
+	}
+	.footer-left{
+		text-align: center;
+	}
+	.footer-center{
+		margin:20px auto;
+		text-align: center;
+		line-height:20px;
+	}
+	.footer-right{
+		text-align: center;
+		line-height: 25px;
+		margin-top: 50px;
+	}
+	.u1,.u2{
+		float: none;
+		text-align: center;
+	}
+	.p2,.p3{
+		float: none;
+		text-align: center;
+	}
+}
+@media (max-width:992px){
+	.footer-center{
+		/*float: left;*/
+		margin: 20px 0;
+	}
+	.footer-right{
+		/*float: right;*/
+		margin: 20px 0;
+	}
+}
+ @media (min-width:768px){
+	.btn3{
+		display: none;
+		}	
+ }
