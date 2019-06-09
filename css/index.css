@@ -182,10 +182,10 @@ nav li{
 	background: #80b767;
 	position: absolute;
 	opacity: 0;
-	width: 267px;
+	width: 269px;
 	height: 302px;
 	margin-top: -400px;	
-	margin-left: -134px;
+	margin-left: -133px;
 	color: white;
 	line-height: 20px;
 	text-align: center;
@@ -309,4 +309,7 @@ footer .row{
 	.btn3{
 		display: none;
 		}	
+ }
+ ul .home{
+ 	color: #80b767;
  }
