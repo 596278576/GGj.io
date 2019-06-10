@@ -147,15 +147,10 @@ nav li{
 	/*color: #b4b4b4;*/
 	margin: 20px;
 }
-.carcousel2-slide a{
-	/*color: #80b767;*/
-	margin: 20px;
-
-}
 .carcousel2-slide:hover{
 	  background: #80b767;
 	  box-shadow: #80b767 2px 2px 2px 2px;
-	  /*color: red;*/
+	  color: white;
 }
 
 .news{
@@ -184,7 +179,7 @@ nav li{
 	opacity: 0;
 	width: 269px;
 	height: 302px;
-	margin-top: -400px;	
+	margin-top: -380px;	
 	margin-left: -133px;
 	color: white;
 	line-height: 20px;
@@ -192,9 +187,8 @@ nav li{
 	padding: 30px;
 }
 .news li:hover::after{
-	/*content:"111";*/
 	opacity: 50;
-	transition: all 5s;
+	transition: all 3s;
 }
 footer{
 	background:#333333;
