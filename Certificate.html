@@ -16,7 +16,7 @@
 </head>
 <body>
 	<!-- 头部开发 -->
-	<div class="header container-fluid">
+	<div class="header container-fluid wow bounceInDown">
 		<div class="container">
 			<!-- 头部 -->
 			<header>
@@ -142,7 +142,7 @@
 		</div>
 	</div>
 	<!-- 展示 -->
-	<div class="container-fluid section">
+	<div class="container-fluid section wow bounceInUp">
 		<div class="container section1">
 		<a name="SERVICES"></a>
 			<p class="title">OUR SERVICES</p>
@@ -295,7 +295,7 @@
 			</div>
 		</div>
 	</div>
-	<footer class="container-fluid">
+	<footer class="container-fluid wow bounceInUp">
 	<a name="contact"></a>
 		<div class="container">
 			<div class="row">
@@ -371,7 +371,9 @@
     $(".ss").click(function(){
     $(".ss-input").show();
   });
-}); 
+});
+new WOW().init();
+ 
     </script>
 </body>
 </html>

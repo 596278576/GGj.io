@@ -19,22 +19,22 @@
 </head>
 <body>
 	<!-- 头部开发 -->
-	<div class="header container-fluid">
+	<div class="header container-fluid wow bounceInDown">
 		<div class="container">
 			<!-- 头部 -->
 			<header>
-				<div class="header-left pull-left">
+				<div class="header-left pull-left wow rollIn">
 					<img class="logo1"  src="img/logo.png" alt="海伦·凯勒">
 					<img  class="logo2" src="img/pocket.png" alt="pocket">
 				</div>
-				<div class="header-right pull-right">
+				<div class="header-right pull-right wow lightSpeedIn">
 					<a href=""><img src="img/icon1.png" alt=""></a>
 					<a href=""><img  src="img/icon2.png" alt=""></a>
 					<a href=""><img  src="img/icon3.png" alt=""></a>
 				</div>
 			</header>
 			<!-- 导航 -->
-			<nav>
+			<nav class="wow bounceInDown">
 			    <div class="navbar-header btn3">
 			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 			        <span class="btn2 sr-only">Toggle navigation</span>
@@ -145,7 +145,7 @@
 		</div>
 	</div>
 	<!-- 关于我们 -->
-	<div class="container-fluid about">
+	<div class="container-fluid about wow bounceInDown">
 	<a name="about-us"></a>
 		<div class="container">
 			<div class="about-content">
@@ -183,7 +183,7 @@
 	</div>
 
 	<!-- 第二个轮播 -->
-	<div class="carcousel2 container-fluid">
+	<div class="carcousel2 container-fluid wow pulse ">
 		<p class="carcousel2-title">Hot Products</p>
 		<div class="container carcousel2-content">
 	          	<div class="swiper-container1">
@@ -243,7 +243,7 @@
 	</div>
 
 	<!-- 新闻 -->
-	<div class="news container-fluid">
+	<div class="news container-fluid wow pulse ">
 	<a name="news"></a>
 		<p class="news-title">NEWS</p>
 		<div class="news-content container">
@@ -268,7 +268,7 @@
 		</div>
 	</div>
 	<!-- 底部 -->
-	<footer class="container-fluid">
+	<footer class="container-fluid wow bounceInUp">
 	<a name="contact"></a>
 		<div class="container">
 			<div class="row">
@@ -366,6 +366,7 @@
     $(".ss-input").show();
   });
 }); 
+new WOW().init();
     </script>
 </body>
 </html>

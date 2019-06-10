@@ -16,7 +16,7 @@
 </head>
 <body>
 	<!-- 头部开发 -->
-	<div class="header container-fluid">
+	<div class="header container-fluid wow bounceInDown">
 		<div class="container">
 			<!-- 头部 -->
 			<header>
@@ -142,7 +142,7 @@
 		</div>
 	</div>
 	<!-- 时间线 -->
-	<div class="container-fluid time">
+	<div class="container-fluid time wow pulse">
 	<a name="Time"></a>
 		<div class="container time1">
 		<p class="title">Time line</p>
@@ -239,7 +239,7 @@
 		</div>
 	</div>
 	<!-- 留言表单 -->
-	<div class="container-fluid message">
+	<div class="container-fluid message wow pulse">
 	<a name="Message"></a>
 		<div class="container message2">
 		<p class="title">Message</p>
@@ -299,7 +299,7 @@
 			</form>
 		</div>
 	</div>
-	<footer class="container-fluid">
+	<footer class="container-fluid wow bounceInUp">
 	<a name="contact"></a>
 		<div class="container">
 			<div class="row">
@@ -387,6 +387,8 @@ layui.use('form', function(){
     return false;
   });
 });
+new WOW().init();
+
     </script>
 </body>
 </html>
