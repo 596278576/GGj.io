@@ -92,6 +92,13 @@ nav li{
 
 .about{
 	background: white;
+
+}
+.about .row{
+	margin-bottom: 20px;
+}
+.about .container{
+	margin-bottom: 100px;
 }
 .about-content{
 	margin-top: 50px;
@@ -147,9 +154,13 @@ nav li{
 	/*color: #b4b4b4;*/
 	margin: 20px;
 }
+.carcousel2-slide a{
+	/*color: #b4b4b4;*/
+	margin: 20px;
+}
 .carcousel2-slide:hover{
 	  background: #80b767;
-	  box-shadow: #80b767 2px 2px 2px 2px;
+	  box-shadow: #80b767 1px 1px 1px 1px;
 	  color: white;
 }
 
